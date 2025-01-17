@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Edge New Tab Redirect",
+  "version": "1.0",
+  "description": "新しいタブを指定したURLにリダイレクトします",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
